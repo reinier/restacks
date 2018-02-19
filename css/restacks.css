@@ -1,0 +1,81 @@
+body{
+  margin-top:3em;
+}
+
+p {
+  font-size: 1.3em;
+  text-align: left;
+  margin: 0 0 0.5em 0;
+  line-height: 1.2em;
+}
+h5 {
+  font-size: 2em;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+.light{
+  background:#CCC;'
+  color:#333;
+}
+.dark{
+  background:#333;
+  color:#CCC;
+}
+.grid{
+  text-align:center;
+}
+.banner{
+  text-align:center;
+  padding: 3em 0;
+  margin: 1em 0;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #f3f3f3;
+}
+.table{
+  margin-bottom:35px;
+}
+.banner button{
+  margin-top:7px;
+}
+.divider{
+  width:100%;
+  background:#CCC;
+  height:1px;
+  margin:25px 0;
+}
+.explainer{
+  font-weight:200;
+  color:#AAA;
+  margin-bottom:10px;
+}
+button{
+ margin-bottom:10px;
+ 
+ }
+
+#downloadlink {
+  margin-bottom:10px;
+  display: inline-block;
+}
+
+ .profile-pic {
+  float: left;
+  margin: 0 1em 1px 0;
+ }
+
+@media all and (max-width: 767px) {
+  .span {
+    float: none;
+  }
+
+  .profile-pic {
+    float: none;
+    margin: 0 0 1em 0;
+    display: block;
+  }
+
+  .banner {
+    font-size: 1.2em;
+  }
+}
